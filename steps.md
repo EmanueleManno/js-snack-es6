@@ -21,8 +21,10 @@ Id  Name                Grades
 120 Francesca da Polenta    84 
 
 ## SVOLGIMENTO 1:
-- Recuperiamo l'elenco degli invitati.
-- Generiamo una lista di ospiti dove immettiamo i seguenti attributi: Nome del tavolo, Nome dell'ospite, Posto occupato.
+- Creiamo l'elenco degli invitati.
+- Impostiamo il nome del tavolo e il segnaposto.
+- Assegnamo il nome del posto.
+- Calcoliamo il segnaposto.
 - Stampiamo in console.
 
 ## SVOLGIMENTO 2:
