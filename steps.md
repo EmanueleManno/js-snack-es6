@@ -19,3 +19,18 @@ Id  Name                Grades
 196 Luigi Grimaldello 	    68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84 
+
+## SVOLGIMENTO 1:
+- Recuperiamo l'elenco degli invitati.
+- Generiamo una lista di ospiti dove immettiamo i seguenti attributi: Nome del tavolo, Nome dell'ospite, Posto occupato.
+- Stampiamo in console.
+
+## SVOLGIMENTO 2:
+- Recuperare la lista degli studenti.
+- Creare una lista di studenti che hanno un voto superiore a 70.
+- Stampare in console.
+- Creare una lista di studenti che hanno un voto superiore e un id superiore a 120.
+- Stampare in console.
+- Recuperare l'elemento targa dal DOM.
+- Generare una targa contenente il nome degli studenti
+- Creare una lista col loro nome tutto maiuscolo.
