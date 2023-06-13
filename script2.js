@@ -54,3 +54,12 @@ const studentiBravi = students.filter((item) => {
 //STAMPA IN CONSOLE:
 console.log(studentiBravi);
 
+//VOTAZIONE MAGGIORE DI 70 E ID MAGGIORE DI 120:
+const studentiBraviConId = students.filter((item) => {
+    return item.grade > 70 && item.id > 120
+})
+
+//STAMPA IN CONSOLE:
+console.log(studentiBraviConId);
+
+
