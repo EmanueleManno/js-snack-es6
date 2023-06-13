@@ -62,4 +62,10 @@ const studentiBraviConId = students.filter((item) => {
 //STAMPA IN CONSOLE:
 console.log(studentiBraviConId);
 
+//CREO LA LISTA IN MAIUSCOLO:
+const listaMaiscola = students.map((item) => {
+    return item.name.toUpperCase()
+});
 
+//STAMPO IN CONSOLE:
+console.log(listaMaiscola);
