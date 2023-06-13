@@ -46,6 +46,9 @@ const students = [
     }
 ]
 
+//STAMPA IN CONSOLE:
+console.log(students);
+
 //CREO LA LISTA DEGLI STUDENTI CON VOTAZIONE MAGGIORE DI 70:
 const studentiBravi = students.filter((item) => {
     return item.grade > 70

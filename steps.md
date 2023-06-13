@@ -28,11 +28,11 @@ Id  Name                Grades
 - Stampiamo in console.
 
 ## SVOLGIMENTO 2:
-- Recuperare la lista degli studenti.
+- Creare la lista degli studenti.
+- Stamparla in console.
 - Creare una lista di studenti che hanno un voto superiore a 70.
 - Stampare in console.
 - Creare una lista di studenti che hanno un voto superiore e un id superiore a 120.
 - Stampare in console.
-- Recuperare l'elemento targa dal DOM.
-- Generare una targa contenente il nome degli studenti
-- Creare una lista col loro nome tutto maiuscolo.
+- Creare una lista col nome degli studenti in maiuscolo.
+- Stampare in console.
