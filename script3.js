@@ -31,4 +31,3 @@ const biciclette = [
 
 //STAMPO IN CONSOLE L'ARRAY:
 console.table(biciclette);
-

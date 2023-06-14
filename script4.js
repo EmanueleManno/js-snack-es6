@@ -86,5 +86,10 @@ console.table(campionato);
 //STAMPO IN CONSOLE SOLO NOMI E FALLI:
 console.log(arrayNomiFalli);
 
+//STAMPA PRIMA SQUADRA IN CONSOLE:
+console.log(arrayNomiFalli[0].nome);
+
 //STAMPA IN PAGINA:
-squadrette.innerHTML += `Squadra : ${arrayNomiFalli.nome} con Falli subiti : ${arrayNomiFalli.falli}`;
+for (let i=0; i < arrayNomiFalli.length; i++) {
+squadrette.innerHTML += `Squadra : ${arrayNomiFalli[i].nome} con Falli: ${arrayNomiFalli[i].falli} <br>`
+};
