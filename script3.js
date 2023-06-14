@@ -2,7 +2,7 @@
 console.log('JS OK');
 
 //CREO L'ARRAY DI BICICLETTE:
-biciclette [
+const biciclette = [
     {
         nome: 'Bici da città',
         peso: 200
@@ -27,5 +27,7 @@ biciclette [
         nome: 'Bici da cicloturismo',
         peso: 250
     },
-
 ]
+
+//STAMPO IN CONSOLE L'ARRAY:
+console.table(biciclette);
