@@ -1,6 +1,9 @@
 //VEDIAMO SE FUNZIONA
 console.log('JS OK');
 
+//RECUPERO L'ELEMENTO DAL DOM:
+const printBike = document.getElementById('bici');
+
 //CREO L'ARRAY DI BICICLETTE:
 const biciclette = [
     {
@@ -46,3 +49,9 @@ for (let i = 0; i < biciclette.length; i++) {
 
 //STAMPA IN CONSOLE:
 console.log("La bici più leggera è: ", biciLeggera);
+
+let {nome, peso} = biciLeggera;
+
+//STAMPO IN PAGINA LA BICI PIU' LEGGERA:
+printBike.innerHTML = `La bici da corsa più leggera è:
+${nome}, del peso di soli ${peso} kg`;
