@@ -12,3 +12,19 @@ Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengon
 
 # BONUS:
 Stampare in pagina oltre che in console!
+
+
+# SVOLGIMENTO SNACK 3:
+- Creare l'array di oggetti BICI.
+- Per ogni Bicicletta avremo nome e peso.
+- Fare un controllo dei pesi delle biciclette, trovare quello che pesa meno.
+- Stampare in console la bici che pesa meno.
+
+# SVOLGIMENTO SNACK 4:
+- Creare un array di oggetti di squadre di calcio.
+- Dare le seguenti proprietà alle squadre: nome, punti fatti, falli subiti.
+- Compilare il campo nome, le altre settarle a zero.
+- Generare un random al posto degli 0 nei falli e nei punti.
+- Stampare in console il risultato.
+- Creare un nuovo array con solo nomi e falli.
+- Stampare in console.
