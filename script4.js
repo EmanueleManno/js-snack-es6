@@ -1,9 +1,11 @@
 //VEDIAMO SE FUNZIONA
 console.log('JS OK');
 
+//RECUPERO L'ELEMENTO DAL DOM:
+const squadrette = document.getElementById('squadre');
+
 //CREO L'ARRAY DI SQUADRE DI CALCIO:
-const campionato =
-[
+const campionato = [
 { 
     nome: 'Milan',
     punti : 0,
@@ -83,3 +85,6 @@ console.table(campionato);
 
 //STAMPO IN CONSOLE SOLO NOMI E FALLI:
 console.log(arrayNomiFalli);
+
+//STAMPA IN PAGINA:
+squadrette.innerHTML += `Squadra : ${arrayNomiFalli.nome} con Falli subiti : ${arrayNomiFalli.falli}`;
