@@ -61,16 +61,25 @@ const campionato =
 }
 ]
 
-//STAMPO IN CONSOLE:
+//CREO UN NUOVO ARRAY VUOTO:
+const arrayNomiFalli = [];
+
+//PER OGNI SQUADRA CONTENENTE NEL CAMPIONATO:
+for (let i = 0; i < campionato.length; i++) {
+
+    //GENERO UN NUMERO CASUALE PER I PUNTI:
+    campionato[i]["punti"] = Math.floor((Math.random() * 100) + 1);
+    //GENERO UN NUMERO CASUALE PER I FALLI:
+    campionato[i]["falli"] = Math.floor((Math.random() * 100) + 1);
+
+    //MI PRENDO NOME E FALLI PER METTERLI NEL NUOVO ARRAY:
+    let {nome, falli} = campionato[i];
+    //PUSHO NEL NUOVO ARRAY GENERATO:
+    arrayNomiFalli.push({nome, falli});
+}
+
+//STAMPO IN CONSOLE TUTTO L'ARRAY CON NOMI, SQUADRE E FALLI:
 console.table(campionato);
 
-// VOGLIO UN ARRAY CON SOLO NOMI E FALLI:
-const ArrayNomiFalli = campionato.map((squadra) => {
-    return {
-      nome: squadra.nome,
-      falli: squadra.falli,
-    }
-});
-
-//STAMPO IN CONSOLE LE SQUADRE CON NOMI E FALLI:
-console.log(ArrayNomiFalli);
+//STAMPO IN CONSOLE SOLO NOMI E FALLI:
+console.log(arrayNomiFalli);
