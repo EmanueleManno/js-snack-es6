@@ -84,10 +84,7 @@ for (let i = 0; i < campionato.length; i++) {
 console.table(campionato);
 
 //STAMPO IN CONSOLE SOLO NOMI E FALLI:
-console.log(arrayNomiFalli);
-
-//STAMPA PRIMA SQUADRA IN CONSOLE:
-console.log(arrayNomiFalli[0].nome);
+console.table(arrayNomiFalli);
 
 //STAMPA IN PAGINA:
 for (let i=0; i < arrayNomiFalli.length; i++) {

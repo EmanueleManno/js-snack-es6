@@ -31,3 +31,18 @@ const biciclette = [
 
 //STAMPO IN CONSOLE L'ARRAY:
 console.table(biciclette);
+
+//CALCOLO LA BICICLETTA PIU' LEGGERA:
+let biciLeggera = biciclette[0];
+
+for (let i = 0; i < biciclette.length; i++) {
+
+    let bici = biciclette[i];
+    
+    if (bici["peso"] < biciLeggera["peso"]) {
+        biciLeggera = bici;
+    }
+}
+
+//STAMPA IN CONSOLE:
+console.log("La bici più leggera è: ", biciLeggera);
