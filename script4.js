@@ -60,3 +60,17 @@ const campionato =
     falli : 0
 }
 ]
+
+//STAMPO IN CONSOLE:
+console.table(campionato);
+
+// VOGLIO UN ARRAY CON SOLO NOMI E FALLI:
+const ArrayNomiFalli = campionato.map((squadra) => {
+    return {
+      nome: squadra.nome,
+      falli: squadra.falli,
+    }
+});
+
+//STAMPO IN CONSOLE LE SQUADRE CON NOMI E FALLI:
+console.log(ArrayNomiFalli);
